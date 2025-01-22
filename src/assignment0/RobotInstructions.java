@@ -29,40 +29,40 @@ public class RobotInstructions  {
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
-		robot.forward(300);//
+		robot.forward(300);//Create Stem 
 		
-		robot.turnLeft(180);//
-		robot.forward(20);//
+		robot.turnLeft(180);//Go back Down Stem 
+		robot.forward(20);//Back down Stem 20 Units
 		
-		robot.turnLeft(90);//
-		robot.forward(40);// 
+		robot.turnLeft(90);//Move to position of Right Branch
+		robot.forward(40);// Move 40 units to create 40 unit right Branch
 		
-		robot.turnRight(180);//
-		robot.forward(80);// 
+		robot.turnRight(180);//Turn back to the direction for Left Branch
+		robot.forward(80);// Cover twice the distance to create Left Branch
 		
-		robot.turnLeft(180);//
-		robot.forward(40);//
+		robot.turnLeft(180);//Go back to the right to reach stem
+		robot.forward(40);// Move 40 units back in right direction to reach stem
 		
-		robot.turnRight(90);
-		robot.forward(80);
+		robot.turnRight(90);//Turn to position back down the Branch
+		robot.forward(80);//Move 80 Units down 
 		
-		robot.turnRight(90);
-		robot.forward(80);
+		robot.turnRight(90);//Position to make 2nd left Branch
+		robot.forward(80);//Move left 80 units to make left branch
 		
-		robot.turnLeft(180);
-		robot.forward(160);
+		robot.turnLeft(180);//Move back to the right position 
+		robot.forward(160);//Go down twice the length to create right Branch
 		
-		robot.turnRight(180);
-		robot.forward(80);
+		robot.turnRight(180);//Move back to the left direction 
+		robot.forward(80);//move 80 units back to the center of stem
 		
-		robot.turnLeft(90);
-		robot.forward(160);
+		robot.turnLeft(90);//Turn to go back to position Stem
+		robot.forward(160);//Move down 160 units 
 		
-		robot.turnRight(90);
-		robot.forward(160);
+		robot.turnRight(90);//Position to make Left Branch
+		robot.forward(160);//Move 160 units to the left 
 		
-		robot.turnLeft(180);
-		robot.forward(360);
+		robot.turnLeft(180);//Turn around to reach Right Direction for Right Branch
+		robot.forward(360);//Move 360 units to the right to make the right Branch 
 	}
 
 }
